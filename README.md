@@ -18,7 +18,7 @@ Some quick examples in action (these are the html files in /tests):
 CDN for the script:
 
 ```
-<script src="https://cdn.rawgit.com/a-r-d/pikachu-injector/mastyer/pikachu-injector.js"></script>
+<script src="https://cdn.rawgit.com/a-r-d/pikachu-injector/master/dist/pikachu-injector.min.js"></script>
 ```
 
 Or use Bower:
@@ -32,7 +32,7 @@ bower install --save pikachu-injector
 Include the script, add the class 'pikachu-injector-background' somewhere and pikachu will be injected when the 'DOMContentLoaded' event fires.
 
 ```html
-<script src="https://cdn.rawgit.com/a-r-d/pikachu-injector/mastyer/pikachu-injector.js"></script>
+<script src="https://cdn.rawgit.com/a-r-d/pikachu-injector/master/dist/pikachu-injector.min.js"></script>
 <body class='pikachu-injector-background'>
   ...
 </body>

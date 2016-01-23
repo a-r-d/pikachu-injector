@@ -554,57 +554,6 @@
 
 		<div class="row">
 			<div class="col-lg-12">
-				<!-- see google's docs to change:
-					https://developers.google.com/maps/documentation/javascript/tutorial
-				 -->
-      			<div id="map-canvas"></div>
-      			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-      			<script type="text/javascript">
-			      function initializeMAP() {
-
-					var geocoder;
-			        var mapOptions = {
-			          center: new google.maps.LatLng(-34.397, 150.644),
-			          zoom: 8
-			        };
-			        var map = new google.maps.Map(document.getElementById("map-canvas"),
-			            mapOptions);
-
-
-
-			       	// This code will set the address and drop the pin
-			       	var addy = $("#address").text();
-					console.log("Setting address too: " + addy);
-
-					geocoder = new google.maps.Geocoder();
-					geocoder.geocode( { 'address': addy}, function(results, status) {
-					  if (status == google.maps.GeocoderStatus.OK) {
-						map.setCenter(results[0].geometry.location);
-
-						var marker = new google.maps.Marker({
-							map: map,
-							position: results[0].geometry.location
-						});
-
-					  } else {
-						console.log("Geocode was not successful for the following reason: " + status);
-					  }
-					});
-
-			      }
-			      google.maps.event.addDomListener(window, 'load', initializeMAP);
-			    </script>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-lg-12">
-				&nbsp;
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-lg-12">
 				<div class="well">
 					&copy; Your Company Name 2014
 				</div>
