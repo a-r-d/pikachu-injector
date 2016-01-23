@@ -2,7 +2,7 @@
 
 Pikachu Injector injects a lovable, happy pikachu face into the background css atttribute of any DOM Element that has a class of "pikachu-injector-background".
 
-The class identifier and image link are both configurable. This uses vanilla javascript, no dependencies, NO JQUERY!
+The class identifier and image link are both configurable. This uses vanilla javascript, no dependencies, and no jQuery!
 
 ![pikachu face small](http://i.imgur.com/Cfdz69S.jpg)
 
@@ -22,7 +22,7 @@ CDN for the script:
 <script src="https://cdn.rawgit.com/a-r-d/pikachu-injector/master/dist/pikachu-injector.min.js"></script>
 ```
 
-Or use Bower or NPM:
+Or use bower or npm:
 
 ```
 bower install --save pikachu-injector
