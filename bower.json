@@ -1,0 +1,21 @@
+{
+  "name": "pikachu-injector",
+  "description": "Pikachu Injector injects a lovable, happy pikachu face into the background css atttribute of any DOM Element that has a class of \"pikachu-injector-background\".",
+  "main": "pikachu-injector.min.js",
+  "authors": [
+    "Aaron Decker <aaron@ard.ninja>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "pikachu"
+  ],
+  "homepage": "https://github.com/a-r-d/pikachu-injector",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

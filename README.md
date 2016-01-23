@@ -22,10 +22,12 @@ CDN for the script:
 <script src="https://cdn.rawgit.com/a-r-d/pikachu-injector/master/dist/pikachu-injector.min.js"></script>
 ```
 
-Or use Bower:
+Or use Bower or NPM:
 
 ```
 bower install --save pikachu-injector
+
+npm install --save pikachu-injector
 ```
 
 ## Usage
