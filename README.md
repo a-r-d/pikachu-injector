@@ -9,8 +9,8 @@ The class identifier and image link are both configurable. This uses vanilla jav
 
 Some quick examples in action (these are the html files in /tests):
 
-[default settings](http://htmlpreview.github.io/?https://github.com/a-r-d/pikachu-injector/master/tests/defaults.html)
-[with options](http://htmlpreview.github.io/?https://github.com/a-r-d/pikachu-injector/master/tests/custom-opts.html)
+* [default settings](http://htmlpreview.github.io/?https://github.com/a-r-d/pikachu-injector/master/tests/defaults.html)
+* [with options](http://htmlpreview.github.io/?https://github.com/a-r-d/pikachu-injector/master/tests/custom-opts.html)
 
 
 ## Installation:
