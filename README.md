@@ -4,6 +4,7 @@ Pikachu Injector injects a lovable, happy pikachu face into the background css a
 
 The class identifier and image link are both configurable. This uses vanilla javascript, no dependencies, NO JQUERY!
 
+![pikachu face small](http://i.imgur.com/Cfdz69S.jpg)
 
 ## Examples:
 
