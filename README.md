@@ -15,15 +15,12 @@ Some quick examples in action (these are the html files in /tests):
 
 ## Installation:
 
-```
-CDN for the script (you can also install with bower and ref locally):
-<script src="https://cdn.rawgit.com/a-r-d/pikachu-injector/mastyer/pikachu-injector.js"></script>
+CDN for the script:
 
-Pikachu Face Links, for reference:
-http://i.imgur.com/TIXz0d3.jpg  (this is the default, 12 kb jpeg)
-http://i.imgur.com/7rF0A6F.png  (24 kb png)
-http://i.imgur.com/DjTN8L8.jpg  (24 kb jpeg, raichu face)
 ```
+<script src="https://cdn.rawgit.com/a-r-d/pikachu-injector/mastyer/pikachu-injector.js"></script>
+```
+
 Or use Bower:
 
 ```
@@ -48,4 +45,15 @@ window._pikachuInjector.options({
   cssClass: 'custom-named-class-test',
   link: 'http://i.imgur.com/DjTN8L8.jpg'
 }).update();
+```
+
+
+## Pikachu Resources:
+
+Pikachu Face Links, for reference:
+
+```
+http://i.imgur.com/TIXz0d3.jpg  (this is the default, 12 kb jpeg)
+http://i.imgur.com/7rF0A6F.png  (24 kb png)
+http://i.imgur.com/DjTN8L8.jpg  (24 kb jpeg, raichu face)
 ```
