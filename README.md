@@ -7,18 +7,19 @@ The class identifier and image link are both configurable. This uses vanilla jav
 
 ## Examples:
 
-These examples work using rawgit.com
-default settings:
-with options:
+Some quick examples in action (these are the html files in /tests):
+
+[default settings](http://htmlpreview.github.io/?https://github.com/a-r-d/pikachu-injector/master/tests/defaults.html)
+[with options](http://htmlpreview.github.io/?https://github.com/a-r-d/pikachu-injector/master/tests/custom-opts.html)
 
 
 ## Installation:
 
 ```
 CDN for the script (you can also install with bower and ref locally):
+<script src="https://cdn.rawgit.com/a-r-d/pikachu-injector/mastyer/pikachu-injector.js"></script>
 
-
-Pikachu Face Links
+Pikachu Face Links, for reference:
 http://i.imgur.com/TIXz0d3.jpg  (this is the default, 12 kb jpeg)
 http://i.imgur.com/7rF0A6F.png  (24 kb png)
 http://i.imgur.com/DjTN8L8.jpg  (24 kb jpeg, raichu face)
@@ -34,7 +35,7 @@ bower install --save pikachu-injector
 Include the script, add the class 'pikachu-injector-background' somewhere and pikachu will be injected when the 'DOMContentLoaded' event fires.
 
 ```html
-<script src='http://wherever.com/pikachu-injector.js'>
+<script src="https://cdn.rawgit.com/a-r-d/pikachu-injector/mastyer/pikachu-injector.js"></script>
 <body class='pikachu-injector-background'>
   ...
 </body>
