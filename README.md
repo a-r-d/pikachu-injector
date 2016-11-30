@@ -1,5 +1,7 @@
 #pikachu-injector
 
+[![NPM](https://nodei.co/npm/pikachu-injector.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/pikachu-injector/)
+
 Pikachu Injector injects a lovable, happy pikachu face into the background css atttribute of any DOM Element that has a class of "pikachu-injector-background".
 
 The class identifier and image link are both configurable. This uses vanilla javascript, no dependencies, and no jQuery!
